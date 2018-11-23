@@ -10,4 +10,16 @@ favoriteDroid = 'BB-8' //inicialmente a variável é uma string
 console.log("My favorite Droid "+favoriteDroid)
 favoriteDroid = 10 //depois a variável vira number
 console.log("My favorite Droid "+favoriteDroid)
+let ddd : string
 
+
+let isEnoughToBeatMF = function(parsecs: number): boolean {
+    return parsecs < 12
+}
+
+let distance = 14
+
+console.log(`Is ${distance} parsecs enough to beat Millennium Falcon? ${isEnoughToBeatMF(distance) ? 'YES': 'NO'}`)
+
+let call = (name: string) => console.log(`Do you copy ${name}?`)
+call('João')
